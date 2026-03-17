@@ -55,7 +55,7 @@ const Blog = () => {
     <>
       <PageHero
         badge="Insights & Stories"
-        title="ARC Ltd Blog"
+        title="GM Green  Blog"
         description="Explore our latest insights on agribusiness, climate-smart agriculture, market trends, and inspiring stories from the field."
       />
 

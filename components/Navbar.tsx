@@ -14,6 +14,7 @@ const navLinks = [
   { name: "Digital Tool", path: "/digital-tool" },
   { name: "Partnerships", path: "/partnerships" },
   { name: "Portfolio", path: "/portfolio" },
+  // { name: "Store", path: "/store" },
   { name: "Blog", path: "/blog" },
   { name: "Contact", path: "/contact" },
 ];
@@ -33,7 +34,7 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block">
               <span className="font-display font-bold text-lg text-foreground">
-                ARC Ltd
+              GM Green Solutions
               </span>
               <p className="text-[10px] text-muted-foreground leading-tight">
                 Agribusiness & Research

@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Layout from "@/components/Layout";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agribusiness Solutions",
+  title: "Agribusiness & Reseach Solutions",
   description: "agribusiness development consultancy",
 };
 
@@ -30,10 +33,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          <TooltipProvider>
+      <Toaster />
+      <Sonner/>
           <Layout>
         {children}
         </Layout>
         <WhatsAppFloatingButton />
+         </TooltipProvider>
       </body>
     </html>
   );

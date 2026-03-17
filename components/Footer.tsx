@@ -15,7 +15,7 @@ const Footer = () => {
                 <Leaf className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <span className="font-display font-bold text-lg">ARC Ltd</span>
+                <span className="font-display font-bold text-lg">GM Green Solutions Ltd</span>
                 <p className="text-xs text-primary-foreground/70">
                   Agribusiness & Research Consultancy
                 </p>
@@ -81,19 +81,20 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
                 <a
-                  href="tel:+233248892123"
+                  href="tel:+233509577546"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  +233 248 892 123
+                  +233 50 957 7546
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
                 <a
-                  href="mailto:goasare@gmail.com"
+                  href="mailto:info@gmgreensolutions.org"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  goasare@gmail.com
+                
+                  info@gmgreensolutions.org
                 </a>
               </li>
             </ul>

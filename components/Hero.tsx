@@ -18,21 +18,33 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 mb-8 animate-fade-in">
             <Sprout className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-primary-foreground">
-              Ghana's Leading Agribusiness Partner
+              Ghana's Leading Research and Agribusiness Partner
             </span>
           </div>
 
           {/* Headline */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 animate-slide-up">
-            Agribusiness Solutions That Deliver{" "}
+            {/* Agribusiness Solutions That Deliver{" "} */}
+            Research, Advisory and Digital Solutions That Deliver {" "} 
             <span className="text-accent">Measurable Outcomes</span>
           </h1>
 
           {/* Subtext */}
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mb-10 animate-slide-up" style={{ animationDelay: "0.1s" }}>
-            We strengthen agricultural performance through commercial farming, 
+            {/* We strengthen agricultural performance through commercial farming, 
             agribusiness development consultancy, research, project management, 
-            and climate-smart digital systems.
+            and climate-smart digital systems. */}
+            GM Green Solutions provides multi-sector research, surveys, feasibility studies, 
+            business development services, agribusiness advisory, 
+            and digital solution development to support organizations in making informed, 
+            evidence-based decisions. 
+          
+              <br/>
+            Through these services, we help governments, 
+            development partners, and private sector institutions design 
+            effective programs, guide strategic investments, and formulate sound policies.
+           
+  
           </p>
 
           {/* CTAs */}
@@ -66,7 +78,7 @@ const Hero = () => {
                 Years Experience
               </div>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="flex justify-center mb-2">
                 <Users className="w-5 h-5 text-accent" />
               </div>
@@ -76,13 +88,13 @@ const Hero = () => {
               <div className="text-xs md:text-sm text-primary-foreground/60">
                 Projects Delivered
               </div>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="flex justify-center mb-2">
                 <Sprout className="w-5 h-5 text-accent" />
               </div>
               <div className="font-display text-2xl md:text-3xl font-bold text-primary-foreground">
-                10K+
+                100K+
               </div>
               <div className="text-xs md:text-sm text-primary-foreground/60">
                 Farmers Reached

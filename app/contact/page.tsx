@@ -43,10 +43,10 @@ const Contact = () => {
                   <div>
                     <div className="font-semibold text-foreground mb-1">Phone</div>
                     <a
-                      href="tel:+233248892123"
+                      href="tel:+233 50 957 7546"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +233 248 892 123
+                      +233 50 957 7546
                     </a>
                   </div>
                 </div>
@@ -58,12 +58,13 @@ const Contact = () => {
                   <div>
                     <div className="font-semibold text-foreground mb-1">WhatsApp</div>
                     <a
-                      href="https://wa.me/233248892123"
+                      href="https://wa.me/233509577546"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +233 248 892 123
+                     
+                      +233 50 957 7546
                     </a>
                   </div>
                 </div>
@@ -75,10 +76,10 @@ const Contact = () => {
                   <div>
                     <div className="font-semibold text-foreground mb-1">Email</div>
                     <a
-                      href="mailto:goasare@gmail.com"
+                      href="mailto:info@gmgreensolutions.org"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      goasare@gmail.com
+                      info@gmgreensolutions.org
                     </a>
                   </div>
                 </div>

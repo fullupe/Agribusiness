@@ -31,6 +31,7 @@ export default function Home() {
     icon: BarChart3,
     title: "Research & Studies",
     description: "Data-driven insights through comprehensive surveys, market analysis, and value chain studies.",
+    
     items: ["Baseline/midline/endline surveys", "Market & value chain studies", "Farmer profiling"],
   },
   {
@@ -59,8 +60,10 @@ export default function Home() {
         <div className="container-wide mx-auto">
           <SectionHeader
             badge="What We Do"
-            title="Comprehensive Agribusiness Solutions"
-            description="We deliver integrated services across the agricultural value chain, combining deep expertise with innovative digital tools to drive measurable impact."
+            title="Research, Surveys and Data Intelligence"
+            // description="We deliver integrated services across the agricultural value chain, 
+            // combining deep expertise with innovative digital tools to drive measurable impact."
+            description="We conduct rigorous research and large-scale data collection exercises that generate reliable insights for policy, investment, and program design.."
             centered
           />
 
