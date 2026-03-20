@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 mb-8 animate-fade-in">
             <Sprout className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-primary-foreground">
-              Ghana's Leading Research and Agribusiness Partner
+             A leading Research and Agribusiness Advisory Partner in Africa.
             </span>
           </div>
 
@@ -34,15 +34,23 @@ const Hero = () => {
             {/* We strengthen agricultural performance through commercial farming, 
             agribusiness development consultancy, research, project management, 
             and climate-smart digital systems. */}
-            GM Green Solutions provides multi-sector research, surveys, feasibility studies, 
+
+            {/* GM Green Solutions provides multi-sector research, surveys, feasibility studies, 
             business development services, agribusiness advisory, 
             and digital solution development to support organizations in making informed, 
-            evidence-based decisions. 
+            evidence-based decisions.  */}
+
+
+            We deliver applied research, business intelligence, and technical advisory services that enable governments, 
+            investors, and development partners to make informed decisions, structure viable investments, and achieve measurable impact.
           
               <br/>
-            Through these services, we help governments, 
+            {/* Through these services, we help governments, 
             development partners, and private sector institutions design 
-            effective programs, guide strategic investments, and formulate sound policies.
+            effective programs, guide strategic investments, and formulate sound policies. */}
+
+            GM Green Solutions combines quantitative and qualitative research, financial analysis, agronomic expertise, 
+            and digital systems to support sustainable and scalable agricultural development across Africa.
            
   
           </p>

@@ -10,12 +10,13 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Solutions", path: "/solutions" },
-  { name: "Digital Tool", path: "/digital-tool" },
-  { name: "Partnerships", path: "/partnerships" },
-  { name: "Portfolio", path: "/portfolio" },
+  { name: "Service", path: "/solutions" },
+  // { name: "Digital Tool", path: "/digital-tool" },
+  // { name: "Partnerships", path: "/partnerships" },
+  // { name: "Portfolio", path: "/portfolio" },
+   { name: "Insights", path: "/blog" },
+   { name: "Project", path: "/portfolio" },
   // { name: "Store", path: "/store" },
-  { name: "Blog", path: "/blog" },
   { name: "Contact", path: "/contact" },
 ];
 

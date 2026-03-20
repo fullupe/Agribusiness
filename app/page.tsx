@@ -17,34 +17,48 @@ export default function Home() {
   const services = [
   {
     icon: Tractor,
-    title: "Farming Operations",
-    description: "Commercial crop production and demonstration farms that showcase best practices and drive productivity.",
-    items: ["Commercial crop production", "Demo farms", "Postharvest support", "Productivity planning"],
+    // title: "Farming Operations",
+    title: "Research, Monitoring & Evaluation",
+    // – Evidence for programme design and performance tracking
+    description: "Evidence for programme design and performance tracking.",
+    // items: ["Commercial crop production", "Demo farms", "Postharvest support", "Productivity planning"],
   },
   {
     icon: ClipboardList,
-    title: "Agribusiness Development Consultancy",
-    description: "Strategic guidance to transform agricultural ventures into sustainable, profitable enterprises.",
-    items: ["Feasibility & business plans", "Market strategies", "Cooperative/aggregation models"],
+    // title: "Agribusiness Development Consultancy",
+    title: "Market Research & Investment Advisory",
+  
+    // description: "Strategic guidance to transform agricultural ventures into sustainable, profitable enterprises.",
+    description: "Market insights and investment-ready analysis.",
+    // items: ["Feasibility & business plans", "Market strategies", "Cooperative/aggregation models"],
   },
   {
     icon: BarChart3,
-    title: "Research & Studies",
-    description: "Data-driven insights through comprehensive surveys, market analysis, and value chain studies.",
+    // title: "Research & Studies",
+    title: "Business Development & Enterprise Support",
+   
+    // description: "Data-driven insights through comprehensive surveys, market analysis, and value chain studies.",
+    description: "Business plans, diagnostics, and growth strategies.",
     
-    items: ["Baseline/midline/endline surveys", "Market & value chain studies", "Farmer profiling"],
+    // items: ["Baseline/midline/endline surveys", "Market & value chain studies", "Farmer profiling"],
   },
   {
     icon: FolderKanban,
-    title: "Project Management",
-    description: "End-to-end programme delivery from planning through implementation to stakeholder engagement.",
-    items: ["Programme planning", "Implementation supervision", "Training & adoption support"],
+    // title: "Project Management",
+    title: "Project Design & Implementation Support",
+    // Project Design & Implementation Support – From concept development to execution
+    // description: "End-to-end programme delivery from planning through implementation to stakeholder engagement.",
+    description: "From concept development to execution.",
+    // items: ["Programme planning", "Implementation supervision", "Training & adoption support"],
   },
   {
     icon: Cloud,
-    title: "Climate-Smart Digital Tool",
-    description: "Advanced digital agriculture platform providing climate alerts, agronomic advisories, and farmer learning.",
-    items: ["Climate forecasting", "Agronomic advisories", "Adoption tracking dashboards"],
+    // title: "Climate-Smart Digital Tool",
+    title: "Agronomic, Climate & Digital Advisory",
+    // Agronomic, Climate & Digital Advisory – Soil testing, climate-smart solutions, and data-driven tools
+    // description: "Advanced digital agriculture platform providing climate alerts, agronomic advisories, and farmer learning.",
+    description: "Soil testing, climate-smart solutions, and data-driven tools.",
+    // items: ["Climate forecasting", "Agronomic advisories", "Adoption tracking dashboards"],
   },
 ];
 
@@ -59,11 +73,11 @@ export default function Home() {
       <section className="section-padding bg-background">
         <div className="container-wide mx-auto">
           <SectionHeader
-            badge="What We Do"
+             badge="What We Do"
             title="Research, Surveys and Data Intelligence"
             // description="We deliver integrated services across the agricultural value chain, 
             // combining deep expertise with innovative digital tools to drive measurable impact."
-            description="We conduct rigorous research and large-scale data collection exercises that generate reliable insights for policy, investment, and program design.."
+            description="We provide integrated services across research, advisory, and project implementation"
             centered
           />
 
