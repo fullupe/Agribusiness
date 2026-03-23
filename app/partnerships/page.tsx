@@ -47,7 +47,7 @@ const Partnerships = () => {
                 our deep understanding of the Ghanaian agricultural landscape.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Together, we combine eKutir's cutting-edge technology platforms with ARC Ltd's 
+                Together, we combine eKutir's cutting-edge technology platforms with GM Green Ltd's 
                 local expertise to deliver solutions that are both innovative and contextually 
                 appropriate for Ghanaian farmers and agribusinesses.
               </p>
@@ -138,7 +138,7 @@ const Partnerships = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We are always exploring opportunities to collaborate with organizations that share 
             our commitment to agricultural development. If you're interested in partnering with 
-            ARC Ltd, we'd love to hear from you.
+            GM Green Ltd, we'd love to hear from you.
           </p>
         </div>
       </section>

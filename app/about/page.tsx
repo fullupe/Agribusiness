@@ -108,8 +108,12 @@ const About = () => {
     <>
       <PageHero
         badge="About Us"
-        title="Driving Agricultural Transformation in Ghana"
-        description="Agribusiness and Research Consultancy Ltd is a leading Ghanaian firm dedicated to strengthening agricultural performance through innovative solutions and strategic partnerships."
+        // title="Driving Agricultural Transformation in Ghana"
+        title="Enabling Smarter Decisions Across Africa"
+
+        // About Us
+        // description="Agribusiness and Research Consultancy Ltd is a leading Ghanaian firm dedicated to strengthening agricultural performance through innovative solutions and strategic partnerships."
+        description="GM Green Solutions delivers integrated solutions across research, agribusiness, business advisory, and project implementation—combining data, technical expertise, and practical execution to support governments, investors, development organizations, and private enterprises in achieving sustainable and scalable impact."
       />
 
       {/* Company Description */}

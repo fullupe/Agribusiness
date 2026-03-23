@@ -115,8 +115,8 @@ const Solutions = () => {
       <section className="section-padding bg-muted">
         <div className="container-wide mx-auto">
           <SectionHeader
-            badge="Why Choose ARC Ltd"
-            title="The ARC Ltd Advantage"
+            badge="Why Choose GM Green Ltd"
+            title="The GM Ltd Advantage"
             centered
           />
           

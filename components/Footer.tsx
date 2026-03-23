@@ -1,6 +1,6 @@
 //import { Link } from "react-router-dom";
 
-import { Leaf, Phone, Mail, MapPin } from "lucide-react";
+import { Leaf, Phone, Mail, MapPin, Podcast, ThumbsUp, } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -31,11 +31,17 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {[
-                { name: "About Us", path: "/about" },
-                { name: "Our Solutions", path: "/solutions" },
-                { name: "Digital Tool", path: "/digital-tool" },
-                { name: "Portfolio", path: "/portfolio" },
-                { name: "Blog", path: "/blog" },
+                // { name: "About Us", path: "/about" },
+                // { name: "Our Solutions", path: "/solutions" },
+                // { name: "Digital Tool", path: "/digital-tool" },
+                // { name: "Portfolio", path: "/portfolio" },
+                // { name: "Blog", path: "/blog" },
+
+                 { name: "Home", path: "/" },
+                { name: "About", path: "/about" },
+                { name: "Service", path: "/solutions" },
+                { name: "Insights", path: "/blog" },
+                { name: "Project", path: "/portfolio" },
               ].map((link) => (
                 <li key={link.path}>
                   <Link
@@ -97,6 +103,32 @@ const Footer = () => {
                   info@gmgreensolutions.org
                 </a>
               </li>
+              <li className="flex items-center gap-3">
+                <Podcast className="w-4 h-4 text-accent" />
+                <a
+                  href="https://www.linkedin.com/company/gm-green-solutions/?viewAsMember=true"
+                target="_blank"
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                
+                  LinkedIn
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+
+                <ThumbsUp className="w-4 h-4 text-accent" />
+
+                
+                <a
+                  href="https://www.facebook.com/share/18So5QCS6M/?mibextid=wwXIfr"
+                target="_blank"
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                
+                  Facebook
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>

@@ -74,7 +74,8 @@ export default function Home() {
         <div className="container-wide mx-auto">
           <SectionHeader
              badge="What We Do"
-            title="Research, Surveys and Data Intelligence"
+            title="Research | Agribusiness | Business Development Services | Project Management"
+            // Instead of Research, Surveys and Data Intelligence, please put *Research | Agribusiness | Business Development Services | Project Management*
             // description="We deliver integrated services across the agricultural value chain, 
             // combining deep expertise with innovative digital tools to drive measurable impact."
             description="We provide integrated services across research, advisory, and project implementation"
